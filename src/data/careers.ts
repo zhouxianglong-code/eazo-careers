@@ -5,7 +5,7 @@ export const company = {
   preview: false,
   searchIndexing: true,
   email: 'zhouxianglong@fellou.ai',
-  ceoEmail: 'xieyang@fellou.ai',
+  ceoEmail: 'yang@eazo.ai',
   tagline: '让每一个作品，成为新的起点。',
   description:
     'Eazo 是一个 AI-native 互动内容社区。用 Coding Agent 做出 App、3D 世界和 Agent，发布、分享，再被他人 Remix。加入我们，一起构建 AI 时代的创作与分发网络。',

@@ -42,7 +42,7 @@ pnpm build
 
 首页主视觉文案、合作理念和招聘流程在 `src/routes/index.tsx`。色彩、间距与响应式布局在 `src/styles.css`。站点地址在 `site.config.ts`；迁移部署后请换成你的实际访问域名。
 
-已按用户提供的两份 PDF 整理 23 个独立岗位，并按用户确认全部展示。招聘邮箱为 `zhouxianglong@fellou.ai`，CEO 邮箱为 `xieyang@fellou.ai`。岗位申请材料按 JD 区分，Builder 布道师无需简历。未注明的用工类型、地点保留待确认；没有编造年限、薪酬或福利。来源与歧义处理见 `RECRUITMENT-SOURCES.md`。
+已按用户提供的两份 PDF 整理 23 个独立岗位，并按用户确认全部展示。招聘邮箱为 `zhouxianglong@fellou.ai`，CEO 邮箱为 `yang@eazo.ai`。岗位申请材料按 JD 区分，Builder 布道师无需简历。未注明的用工类型、地点保留待确认；没有编造年限、薪酬或福利。来源与歧义处理见 `RECRUITMENT-SOURCES.md`。
 
 招聘网站已通过 Sites 公开发布，使用平台提供的域名。此备份不包含原站点的托管身份配置；迁移时请新建自己的站点。
 
