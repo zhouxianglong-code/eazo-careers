@@ -17,6 +17,18 @@ pnpm dev
 
 打开 http://localhost:3000 。
 
+### Eazo / E2B 测试预览
+
+若页面提示 `Blocked request. This host ... is not allowed`，说明 Vite 拒绝了预览域名。`vite.config.ts` 已允许当前项目的 `3000-ihilthdckp8mlobm0hcyv.e2b.app`。Eazo 内正在运行的工程需要同步此配置并重启开发服务；仅更新 GitHub 不会修改已运行的副本。
+
+如果重新创建沙箱后域名变化，可把新的完整主机名添加到 `server.allowedHosts`，或在启动时设置 Vite 的环境变量（值不包含协议和路径）：
+
+```bash
+__VITE_ADDITIONAL_SERVER_ALLOWED_HOSTS=新的完整预览主机名 pnpm dev
+```
+
+只允许当前项目使用的域名，不要设为 `true` 或允许整个 `.e2b.app`。这是开发预览配置；对外分享仍使用页首的正式网站链接。
+
 ```bash
 pnpm typecheck
 pnpm test

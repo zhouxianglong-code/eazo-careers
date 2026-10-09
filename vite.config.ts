@@ -8,6 +8,10 @@ import remarkGfm from 'remark-gfm'
 import rehypePrettyCode from 'rehype-pretty-code'
 
 const config = defineConfig({
+  server: {
+    // Allow this project's Eazo preview without allowing other E2B tenants.
+    allowedHosts: ['3000-ihilthdckp8mlobm0hcyv.e2b.app'],
+  },
   resolve: {
     tsconfigPaths: true,
   },
